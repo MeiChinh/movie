@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+@import './css/header.css';
+@import './css/intro-section.css';
+@import './css/movies.css';
+
+:root {
+    --red: #cf0812;
+    --black: #241e20;
+    --light-black: #241e2099;
+    --white: #f5f5f5;
+    --dark-white: #c0c0c0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, h1, h2, h3, p {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 1rem 5rem;
+    box-shadow: 0px 5px 10px var(--black);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.popup {
+    background-color: #2b2b2b51;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}    
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}    
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* .header-left ul li.menu {
+        display: block;
+    }    
+
+    .header-left ul li:not(.menu) {
+        display: none;
+    } */    
+}    
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	/* .header-left ul li.menu {
+        display: block;
+    }    
+
+    .header-left ul li:not(.menu) {
+        display: none;
+    } */    
+}    
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* .header-left ul li.menu {
+        display: block;
+    }    
+
+    .header-left ul li:not(.menu) {
+        display: none;
+    } */    
+}    
